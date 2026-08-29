@@ -1,0 +1,11 @@
+"workshopitem"
+{
+    "appid"             "1169040"
+    "publishedfileid"   "0"
+    "contentfolder"     "/Users/dika/Project/Games/necesse-better-torch/build/workshop"
+    "previewfile"       "/Users/dika/Project/Games/necesse-better-torch/src/main/resources/preview.png"
+    "visibility"        "0"
+    "title"             "Let there be Light!"
+    "description"       "A comprehensive lighting mod for Necesse combining enhanced torches with decorative outdoor lighting fixtures, offering superior illumination, wiring support, full configuration, and high-performance AutoTorch integration.\n\n[h2]Features[/h2]\n[list]\n[*] [b]Better Torch[/b]: 2x vanilla light (300 light level), wall and ground mountable, uncraftable back to vanilla torches.\n[*] [b]Steel Lamp Post[/b]: Industrial metal street lamp (350 light level) with dynamic spark particles and wire support.\n[*] [b]Wooden Hanging Lantern[/b]: Rustic wooden lantern (350 light level) supporting 4-way wall/ceiling directional mounting.\n[*] [b]Phoenix Lamp Post[/b]: Ultra-bright ornate gold lamp post (550 light level) emitting a radiant warm glow.\n[*] [b]Abyssal Crystal Lantern[/b]: Supercharged tier-2 water lantern (450 light level, 3x vanilla water lantern) with floating wave physics, aquatic particles, and land/water dual placement.\n[*] [b]Full Wire Support[/b]: All outdoor and aquatic fixtures turn off when receiving active wire signal.\n[*] [b]Vanilla Torch Optimizations[/b]: Non-destructive patches optimize all vanilla and colored torches with direct static light updates.\n[*] [b]AutoTorch Integration[/b]: Velocity-aware lookahead, full-radius scanning, terrain awareness (liquid vs land), and zero-allocation performance.\n[*] [b]Multiplayer Synchronized[/b]: Server configuration automatically synchronizes to connecting clients.\n[/list]\n\n[h2]Configuration[/h2]\nFully configurable in settings/lighting/settings.cfg."
+    "changenote"        "v1.0.0: Initial release of Let there be Light! mod for Necesse 1.3.3."
+}

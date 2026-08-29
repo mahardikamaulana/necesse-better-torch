@@ -1,8 +1,24 @@
-[tile]
-exampletile=A Better Torch
+[item]
+bettertorch=Better Torch
+steelLampPost=Steel Lamp Post
+woodenHangingLantern=Wooden Hanging Lantern
+phoenixLamp=Phoenix Lamp Post
+abyssLantern=Abyssal Crystal Lantern
 
 [object]
 bettertorch=Better Torch
+betterwalltorch=Better Torch
+steelLampPost=Steel Lamp Post
+woodenHangingLantern=Wooden Hanging Lantern
+phoenixLamp=Phoenix Lamp Post
+abyssLantern=Abyssal Crystal Lantern
 
 [itemtooltip]
-bettertorchplacetip=Better Torch
+lightlevelinfo=Light Level: <light>
+waterplacetip=Floats on water and places on land
+wirecontrolinfo=Turns off when receiving wire signal
+bettertorchtip=Moth approved. Can be placed on ground or walls.
+steelLampPosttip=Dramatic rain brooding sold separately.
+woodenHangingLanterntip=Hangs 4 ways. Watch your head.
+phoenixLamptip=Sunscreen not included.
+abyssLanterntip=3x brighter than a water lantern. Floats on water and illuminates deep flooded trenches.

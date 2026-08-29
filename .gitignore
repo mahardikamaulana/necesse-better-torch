@@ -11,3 +11,10 @@ build
 # Project specific
 steam_appid.txt
 latest-crash.log
+OutdoorLighting-*.jar
+AutoTorch-*.jar
+mods/
+steamcmd/
+decompiled_outdoorlighting/
+*.log
+.DS_Store
