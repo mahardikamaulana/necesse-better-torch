@@ -6,6 +6,94 @@
     "previewfile"       "/Users/dika/Project/Games/necesse-better-torch/src/main/resources/preview.png"
     "visibility"        "0"
     "title"             "Let there be Light!"
-    "description"       "[h1]🔥 Let there be Light! — Because squinting at pitch-black caves is not gameplay.[/h1]\n[b]Let there be Light![/b] is a comprehensive lighting overhaul for [b]Necesse[/b] that replaces the agony of dark caves, birthday-candle torches, and stick-littered towns with gorgeous, high-intensity illumination, stylish outdoor fixtures, full wire automation, and travel-optimized [b]AutoTorch[/b] integration.\n\n[hr][/hr]\n\n[h2]😩 The Relatable Spelunker Pain Points We All Know Too Well[/h2]\n[list]\n[*] [b]The \"Three-Inch Nose Radius\"[/b]: You enter a deep cave with 200 vanilla torches, only to realize each torch illuminates about as much area as a dying smartphone screen. Take four steps forward, and you're back in the shadow realm getting face-hugged by a cave spider.\n[*] [b]The \"Stick Graveyard\" Base Syndrome[/b]: You spent 10 hours building a grand medieval castle, but at night it looks like a haunted landfill because you had to spam 350 basic torches all over the dirt just so your settlers wouldn't trip over their own shoes.\n[*] [b]The \"AutoTorch Panic Clump\"[/b]: You hop on a fast mount or chug a speed potion, and AutoTorch either drops torches three miles behind you or panics when you hit a corner and dumps 12 torches into a single 2x2 puddle.\n[*] [b]The \"Ocean Trench Void\"[/b]: Vanilla water lanterns give off the optical power of a sleeping firefly. Exploring flooded caverns or ocean trenches meant swimming blindly into danger.\n[/list]\n[i]We've all been there. It hurts your eyes. It wastes your wood. We fixed it.[/i]\n\n[hr][/hr]\n\n[h2]💡 The Solution: Actual Illuminating Fixtures[/h2]\n[list]\n[*] [b]🕯️ Better Torch (300 Light Level — 2x Vanilla)[/b]\nFinally, a torch that behaves like an actual fire. Covers double the surface area, meaning you place half as many torches and save half your wood. Placeable on ground and walls. Hand-craftable anywhere on the fly (4 regular torches -> 1 Better Torch), and fully uncraftable back to vanilla torches when you need them!\n\n[*] [b]🏮 Steel Lamp Post (350 Light Level)[/b]\nGive your settlement that crisp Victorian street vibe. Heavy industrial metal post that emits dynamic sparks and wide-area coverage so your town paths look like civilized streets rather than an abandoned camp.\n\n[*] [b]🪵 Wooden Hanging Lantern (350 Light Level)[/b]\nCozy, rustic lantern that can be mounted 4 ways to walls, pillars, or ceilings. Perfect for taverns, mineshafts, cozy log cabins, and making your build look like a top-tier Pinterest board.\n\n[*] [b]☀️ Phoenix Lamp Post (550 Light Level)[/b]\nThe holy grail of illumination. Forged from iron and gold bars at the anvil, this golden beacon radiates a massive, sun-like amber glow that banishes nocturnal horrors straight back to the underworld. (Sunscreen sold separately).\n\n[*] [b]🌊 Abyssal Crystal Lantern (450 Light Level — 3x Water Lantern)[/b]\nSupercharged tier-2 aquatic lantern with floating wave physics and glowing deep-sea particles. Mountable on land or floating in deep water. Finally, you can illuminate ocean floors and flooded cave chasms without squinting into the abyss.\n[/list]\n\n[hr][/hr]\n\n[h2]⚡ Wiring & Automation: Kill The Lights![/h2]\nEvery single lighting fixture in this mod (including all vanilla torches thanks to our lightweight ByteBuddy patches!) supports wire logic.\n[list]\n[*] Connect your fixtures to switches, daylight sensors, or pressure plates.\n[*] Turn off entire town lighting grids during daytime or when settlers sleep.\n[*] Dim the lights dramatically when entering an arena or boss chamber.\n[*] Zero performance lag and zero memory garbage collection spikes.\n[/list]\n\n[hr][/hr]\n\n[h2]🏃 Next-Gen AutoTorch Mod Integration (Travel-Optimized!)[/h2]\nIf you use the popular [b]AutoTorch[/b] mod, this mod completely supercharges its server loop:\n[list]\n[*] [b]Velocity-Aware Lookahead[/b]: No more torches dropping behind you. The engine predicts your travel vector (including diagonal sprinting) and places torches ahead into the darkness along your travel path.\n[*] [b]Dynamic Travel Stride[/b]: Holding Better Torches or Phoenix Lamps? The mod spaces torches 12 to 16 tiles apart instead of 3 tiles, saving your valuable inventory.\n[*] [b]Full 20-Tile Spatial Scanner[/b]: Walking through a corridor lit by a distant Phoenix Lamp or Street Lamp? AutoTorch detects the light up to 20 tiles away and avoids dropping duplicate torches.\n[*] [b]Anti-Clustering Hysteresis[/b]: Prevents torch pile-ups during mount sprints while the asynchronous lighting engine calculates newly placed light.\n[*] [b]Liquid & Water Awareness[/b]: In ANY_LIGHT mode, AutoTorch automatically switches to floating Abyssal Lanterns over water and solid torches on land!\n[/list]\n\n[hr][/hr]\n\n[h2]🔨 Crafting Recipes (Cheaper than eye surgery)[/h2]\n[list]\n[*] [b]Better Torch[/b]: 4x Torch (Handcrafting / Workstation)\n[*] [b]Vanilla Torch (Uncraft)[/b]: 1x Better Torch -> 4x Torch (Handcrafting / Workstation)\n[*] [b]Steel Lamp Post[/b]: 1x Iron Bar + 1x Torch (Iron Anvil)\n[*] [b]Wooden Hanging Lantern[/b]: 1x Any Log + 1x Torch (Carpenter)\n[*] [b]Phoenix Lamp Post[/b]: 1x Iron Bar + 1x Gold Bar + 3x Torch (Iron Anvil)\n[*] [b]Abyssal Crystal Lantern (Upgrade)[/b]: 1x Water Lantern + 1x Quartz + 1x Any Gem (Workstation)\n[*] [b]Abyssal Crystal Lantern (Direct)[/b]: 1x Torch + 1x Any Log + 1x Quartz (Carpenter)\n[/list]\n\n[hr][/hr]\n\n[h2]⚙️ 100% Configurable & Multiplayer Synced[/h2]\nEverything is customizable in [b]settings/lighting/settings.cfg[/b]:\n[list]\n[*] Adjust light levels (support for up to 5000 light with automatic engine safety guardrails).\n[*] Customize hues, saturation, and recipe difficulty (EASY, MEDIUM, HARD).\n[*] Full multiplayer synchronization: Server settings automatically push to connecting clients.\n[/list]\n\n[hr][/hr]\n\n[h2]🔗 Source Code & Community[/h2]\nFree, open-source, and actively maintained.\n[list]\n[*] [b]GitHub Repository[/b]: [url=https://github.com/mahardikamaulana/necesse-better-torch]https://github.com/mahardikamaulana/necesse-better-torch[/url]\n[*] Tested and verified on Necesse 1.3.3.\n[/list]\n[i]If this mod saved your eyes or your sanity, leave a thumbs up and a favorite on the Workshop! ⭐[/i]"
+    "description"       "[h1]🔥 Let there be Light! — Because squinting at pitch-black caves is not gameplay.[/h1]
+[b]Let there be Light![/b] is a comprehensive lighting overhaul for [b]Necesse[/b] that replaces the agony of dark caves, birthday-candle torches, and stick-littered towns with gorgeous, high-intensity illumination, stylish outdoor fixtures, full wire automation, and travel-optimized [b]AutoTorch[/b] integration.
+
+[hr][/hr]
+
+[h2]😩 The Relatable Spelunker Pain Points We All Know Too Well[/h2]
+[list]
+[*] [b]The \"Three-Inch Nose Radius\"[/b]: You enter a deep cave with 200 vanilla torches, only to realize each torch illuminates about as much area as a dying smartphone screen. Take four steps forward, and you're back in the shadow realm getting face-hugged by a cave spider.
+[*] [b]The \"Stick Graveyard\" Base Syndrome[/b]: You spent 10 hours building a grand medieval castle, but at night it looks like a haunted landfill because you had to spam 350 basic torches all over the dirt just so your settlers wouldn't trip over their own shoes.
+[*] [b]The \"AutoTorch Panic Clump\"[/b]: You hop on a fast mount or chug a speed potion, and AutoTorch either drops torches three miles behind you or panics when you hit a corner and dumps 12 torches into a single 2x2 puddle.
+[*] [b]The \"Ocean Trench Void\"[/b]: Vanilla water lanterns give off the optical power of a sleeping firefly. Exploring flooded caverns or ocean trenches meant swimming blindly into danger.
+[/list]
+[i]We've all been there. It hurts your eyes. It wastes your wood. We fixed it.[/i]
+
+[hr][/hr]
+
+[h2]💡 The Solution: Actual Illuminating Fixtures[/h2]
+[list]
+[*] [b]🕯️ Better Torch (300 Light Level — 2x Vanilla)[/b]
+Finally, a torch that behaves like an actual fire. Covers double the surface area, meaning you place half as many torches and save half your wood. Placeable on ground and walls. Hand-craftable anywhere on the fly (4 regular torches -> 1 Better Torch), and fully uncraftable back to vanilla torches when you need them!
+
+[*] [b]🏮 Steel Lamp Post (350 Light Level)[/b]
+Give your settlement that crisp Victorian street vibe. Heavy industrial metal post that emits dynamic sparks and wide-area coverage so your town paths look like civilized streets rather than an abandoned camp.
+
+[*] [b]🪵 Wooden Hanging Lantern (350 Light Level)[/b]
+Cozy, rustic lantern that can be mounted 4 ways to walls, pillars, or ceilings. Perfect for taverns, mineshafts, cozy log cabins, and making your build look like a top-tier Pinterest board.
+
+[*] [b]☀️ Phoenix Lamp Post (550 Light Level)[/b]
+The holy grail of illumination. Forged from iron and gold bars at the anvil, this golden beacon radiates a massive, sun-like amber glow that banishes nocturnal horrors straight back to the underworld. (Sunscreen sold separately).
+
+[*] [b]🌊 Abyssal Crystal Lantern (450 Light Level — 3x Water Lantern)[/b]
+Supercharged tier-2 aquatic lantern with floating wave physics and glowing deep-sea particles. Mountable on land or floating in deep water. Finally, you can illuminate ocean floors and flooded cave chasms without squinting into the abyss.
+[/list]
+
+[hr][/hr]
+
+[h2]⚡ Wiring & Automation: Kill The Lights![/h2]
+Every single lighting fixture in this mod (including all vanilla torches thanks to our lightweight ByteBuddy patches!) supports wire logic.
+[list]
+[*] Connect your fixtures to switches, daylight sensors, or pressure plates.
+[*] Turn off entire town lighting grids during daytime or when settlers sleep.
+[*] Dim the lights dramatically when entering an arena or boss chamber.
+[*] Zero performance lag and zero memory garbage collection spikes.
+[/list]
+
+[hr][/hr]
+
+[h2]🏃 Next-Gen AutoTorch Mod Integration (Travel-Optimized!)[/h2]
+If you use the popular [b]AutoTorch[/b] mod, this mod completely supercharges its server loop:
+[list]
+[*] [b]Velocity-Aware Lookahead[/b]: No more torches dropping behind you. The engine predicts your travel vector (including diagonal sprinting) and places torches ahead into the darkness along your travel path.
+[*] [b]Dynamic Travel Stride[/b]: Holding Better Torches or Phoenix Lamps? The mod spaces torches 12 to 16 tiles apart instead of 3 tiles, saving your valuable inventory.
+[*] [b]Full 20-Tile Spatial Scanner[/b]: Walking through a corridor lit by a distant Phoenix Lamp or Street Lamp? AutoTorch detects the light up to 20 tiles away and avoids dropping duplicate torches.
+[*] [b]Anti-Clustering Hysteresis[/b]: Prevents torch pile-ups during mount sprints while the asynchronous lighting engine calculates newly placed light.
+[*] [b]Liquid & Water Awareness[/b]: In ANY_LIGHT mode, AutoTorch automatically switches to floating Abyssal Lanterns over water and solid torches on land!
+[/list]
+
+[hr][/hr]
+
+[h2]🔨 Crafting Recipes (Cheaper than eye surgery)[/h2]
+[list]
+[*] [b]Better Torch[/b]: 4x Torch (Handcrafting / Workstation)
+[*] [b]Vanilla Torch (Uncraft)[/b]: 1x Better Torch -> 4x Torch (Handcrafting / Workstation)
+[*] [b]Steel Lamp Post[/b]: 1x Iron Bar + 1x Torch (Iron Anvil)
+[*] [b]Wooden Hanging Lantern[/b]: 1x Any Log + 1x Torch (Carpenter)
+[*] [b]Phoenix Lamp Post[/b]: 1x Iron Bar + 1x Gold Bar + 3x Torch (Iron Anvil)
+[*] [b]Abyssal Crystal Lantern (Upgrade)[/b]: 1x Water Lantern + 1x Quartz + 1x Any Gem (Workstation)
+[*] [b]Abyssal Crystal Lantern (Direct)[/b]: 1x Torch + 1x Any Log + 1x Quartz (Carpenter)
+[/list]
+
+[hr][/hr]
+
+[h2]⚙️ 100% Configurable & Multiplayer Synced[/h2]
+Everything is customizable in [b]settings/lighting/settings.cfg[/b]:
+[list]
+[*] Adjust light levels (support for up to 5000 light with automatic engine safety guardrails).
+[*] Customize hues, saturation, and recipe difficulty (EASY, MEDIUM, HARD).
+[*] Full multiplayer synchronization: Server settings automatically push to connecting clients.
+[/list]
+
+[hr][/hr]
+
+[h2]🔗 Source Code & Community[/h2]
+Free, open-source, and actively maintained.
+[list]
+[*] [b]GitHub Repository[/b]: [url=https://github.com/mahardikamaulana/necesse-better-torch]https://github.com/mahardikamaulana/necesse-better-torch[/url]
+[*] Tested and verified on Necesse 1.3.3.
+[/list]
+[i]If this mod saved your eyes or your sanity, leave a thumbs up and a favorite on the Workshop! ⭐[/i]"
     "changenote"        "v1.0.0: Initial release of Let there be Light! mod for Necesse 1.3.3."
 }
