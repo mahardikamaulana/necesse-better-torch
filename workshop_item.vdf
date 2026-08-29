@@ -9,8 +9,6 @@
     "description"       "[h1]Let there be Light! — Because squinting in dark caves is not gameplay.[/h1]
 [b]Let there be Light![/b] is a gameplay and lighting overhaul mod for [b]Necesse[/b] designed to make cave exploration safer, base building more stylish, and automated lighting effortless.
 
-[hr][/hr]
-
 [h2]Why You Need This Mod[/h2]
 [list]
 [*] [b]Stop Squinting in Dark Caves[/b]: Better Torches cast light twice as far as vanilla torches, helping you spot ores, chests, traps, and lurking monsters long before they reach you.
@@ -21,8 +19,6 @@
 [*] [b]Wire Automation for Modern Towns[/b]: Connect lights to daylight sensors or switches to automatically turn off your settlement's lighting during the day or when settlers go to sleep.
 [*] [b]Sprint & Ride Without Torch Clumping[/b]: If you use the AutoTorch mod, this mod dynamically projects placement ahead of your movement vector, so sprinting or riding mounts never causes torch lag or clumped placements.
 [/list]
-
-[hr][/hr]
 
 [h2]New Lighting Fixtures[/h2]
 [list]
@@ -42,8 +38,6 @@ An ornate golden beacon forged from iron and gold bars at the anvil, radiating a
 Supercharged tier-2 aquatic lantern with floating wave physics and bioluminescent aquatic particles. Mountable on land or floating in water. Perfect for ocean exploration, flooded cave caverns, and fishing docks.
 [/list]
 
-[hr][/hr]
-
 [h2]Smart AutoTorch Integration[/h2]
 If you have the [b]AutoTorch[/b] mod installed, this mod seamlessly upgrades its placement behavior:
 [list]
@@ -53,8 +47,6 @@ If you have the [b]AutoTorch[/b] mod installed, this mod seamlessly upgrades its
 [*] [b]Water & Land Smart Switching[/b]: In ANY_LIGHT mode, it automatically places floating Abyssal Lanterns over water and solid torches on land.
 [*] [b]Anti-Clumping Protection[/b]: Eliminates torch pile-ups against walls when dashing or riding fast mounts while the lighting engine computes.
 [/list]
-
-[hr][/hr]
 
 [h2]Crafting Recipes[/h2]
 [list]
@@ -67,8 +59,6 @@ If you have the [b]AutoTorch[/b] mod installed, this mod seamlessly upgrades its
 [*] [b]Abyssal Crystal Lantern (Direct)[/b]: 1x Torch + 1x Any Log + 1x Quartz (Carpenter Bench)
 [/list]
 
-[hr][/hr]
-
 [h2]Configuration & Customization[/h2]
 Everything is customizable in [b]settings/lighting/settings.cfg[/b]:
 [list]
@@ -78,8 +68,6 @@ Everything is customizable in [b]settings/lighting/settings.cfg[/b]:
 [*] Full multiplayer synchronization: Server settings automatically push to connecting clients.
 [/list]
 
-[hr][/hr]
-
 [h2]Credits & Acknowledgements[/h2]
 Huge thanks and appreciation to the original mod creators whose foundational work and ideas made this mod possible:
 [list]
@@ -87,8 +75,6 @@ Huge thanks and appreciation to the original mod creators whose foundational wor
 [*] [b]AutoTorch[/b] by [url=https://steamcommunity.com/profiles/76561197988408858]Erick Hasse (Crow)[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3132344296]Workshop Link[/url]) — Automatic torch placement framework and listener architecture.
 [*] [b]Outdoor Lighting[/b] by [url=https://steamcommunity.com/id/ceyoda]ceyoda[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3754847143]Workshop Link[/url]) — Outdoor lighting fixtures and lantern visual concepts.
 [/list]
-
-[hr][/hr]
 
 [h2]Source Code & Community[/h2]
 Free, open-source, and actively maintained.
