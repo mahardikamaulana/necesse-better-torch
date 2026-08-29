@@ -6,12 +6,12 @@
     "previewfile"       "/Users/dika/Project/Games/necesse-better-torch/src/main/resources/preview.png"
     "visibility"        "0"
     "title"             "Let there be Light!"
-    "description"       "[h1]🔥 Let there be Light! — Because squinting at pitch-black caves is not gameplay.[/h1]
+    "description"       "[h1]Let there be Light! — Because squinting at pitch-black caves is not gameplay.[/h1]
 [b]Let there be Light![/b] is a comprehensive lighting overhaul for [b]Necesse[/b] that replaces the agony of dark caves, birthday-candle torches, and stick-littered towns with gorgeous, high-intensity illumination, stylish outdoor fixtures, full wire automation, and travel-optimized [b]AutoTorch[/b] integration.
 
 [hr][/hr]
 
-[h2]😩 The Relatable Spelunker Pain Points We All Know Too Well[/h2]
+[h2]The Relatable Spelunker Pain Points We All Know Too Well[/h2]
 [list]
 [*] [b]The \"Three-Inch Nose Radius\"[/b]: You enter a deep cave with 200 vanilla torches, only to realize each torch illuminates about as much area as a dying smartphone screen. Take four steps forward, and you're back in the shadow realm getting face-hugged by a cave spider.
 [*] [b]The \"Stick Graveyard\" Base Syndrome[/b]: You spent 10 hours building a grand medieval castle, but at night it looks like a haunted landfill because you had to spam 350 basic torches all over the dirt just so your settlers wouldn't trip over their own shoes.
@@ -22,27 +22,27 @@
 
 [hr][/hr]
 
-[h2]💡 The Solution: Actual Illuminating Fixtures[/h2]
+[h2]The Solution: Actual Illuminating Fixtures[/h2]
 [list]
-[*] [b]🕯️ Better Torch (300 Light Level — 2x Vanilla)[/b]
+[*] [b]Better Torch (300 Light Level — 2x Vanilla)[/b]
 Finally, a torch that behaves like an actual fire. Covers double the surface area, meaning you place half as many torches and save half your wood. Placeable on ground and walls. Hand-craftable anywhere on the fly (4 regular torches -> 1 Better Torch), and fully uncraftable back to vanilla torches when you need them!
 
-[*] [b]🏮 Steel Lamp Post (350 Light Level)[/b]
+[*] [b]Steel Lamp Post (350 Light Level)[/b]
 Give your settlement that crisp Victorian street vibe. Heavy industrial metal post that emits dynamic sparks and wide-area coverage so your town paths look like civilized streets rather than an abandoned camp.
 
-[*] [b]🪵 Wooden Hanging Lantern (350 Light Level)[/b]
+[*] [b]Wooden Hanging Lantern (350 Light Level)[/b]
 Cozy, rustic lantern that can be mounted 4 ways to walls, pillars, or ceilings. Perfect for taverns, mineshafts, cozy log cabins, and making your build look like a top-tier Pinterest board.
 
-[*] [b]☀️ Phoenix Lamp Post (550 Light Level)[/b]
+[*] [b]Phoenix Lamp Post (550 Light Level)[/b]
 The holy grail of illumination. Forged from iron and gold bars at the anvil, this golden beacon radiates a massive, sun-like amber glow that banishes nocturnal horrors straight back to the underworld. (Sunscreen sold separately).
 
-[*] [b]🌊 Abyssal Crystal Lantern (450 Light Level — 3x Water Lantern)[/b]
+[*] [b]Abyssal Crystal Lantern (450 Light Level — 3x Water Lantern)[/b]
 Supercharged tier-2 aquatic lantern with floating wave physics and glowing deep-sea particles. Mountable on land or floating in deep water. Finally, you can illuminate ocean floors and flooded cave chasms without squinting into the abyss.
 [/list]
 
 [hr][/hr]
 
-[h2]⚡ Wiring & Automation: Kill The Lights![/h2]
+[h2]Wiring & Automation: Kill The Lights![/h2]
 Every single lighting fixture in this mod (including all vanilla torches thanks to our lightweight ByteBuddy patches!) supports wire logic.
 [list]
 [*] Connect your fixtures to switches, daylight sensors, or pressure plates.
@@ -53,7 +53,7 @@ Every single lighting fixture in this mod (including all vanilla torches thanks 
 
 [hr][/hr]
 
-[h2]🏃 Next-Gen AutoTorch Mod Integration (Travel-Optimized!)[/h2]
+[h2]Next-Gen AutoTorch Mod Integration (Travel-Optimized!)[/h2]
 If you use the popular [b]AutoTorch[/b] mod, this mod completely supercharges its server loop:
 [list]
 [*] [b]Velocity-Aware Lookahead[/b]: No more torches dropping behind you. The engine predicts your travel vector (including diagonal sprinting) and places torches ahead into the darkness along your travel path.
@@ -65,7 +65,7 @@ If you use the popular [b]AutoTorch[/b] mod, this mod completely supercharges it
 
 [hr][/hr]
 
-[h2]🔨 Crafting Recipes (Cheaper than eye surgery)[/h2]
+[h2]Crafting Recipes (Cheaper than eye surgery)[/h2]
 [list]
 [*] [b]Better Torch[/b]: 4x Torch (Handcrafting / Workstation)
 [*] [b]Vanilla Torch (Uncraft)[/b]: 1x Better Torch -> 4x Torch (Handcrafting / Workstation)
@@ -78,7 +78,7 @@ If you use the popular [b]AutoTorch[/b] mod, this mod completely supercharges it
 
 [hr][/hr]
 
-[h2]⚙️ 100% Configurable & Multiplayer Synced[/h2]
+[h2]100% Configurable & Multiplayer Synced[/h2]
 Everything is customizable in [b]settings/lighting/settings.cfg[/b]:
 [list]
 [*] Adjust light levels (support for up to 5000 light with automatic engine safety guardrails).
@@ -88,12 +88,12 @@ Everything is customizable in [b]settings/lighting/settings.cfg[/b]:
 
 [hr][/hr]
 
-[h2]🔗 Source Code & Community[/h2]
+[h2]Source Code & Community[/h2]
 Free, open-source, and actively maintained.
 [list]
 [*] [b]GitHub Repository[/b]: [url=https://github.com/mahardikamaulana/necesse-better-torch]https://github.com/mahardikamaulana/necesse-better-torch[/url]
 [*] Tested and verified on Necesse 1.3.3.
 [/list]
-[i]If this mod saved your eyes or your sanity, leave a thumbs up and a favorite on the Workshop! ⭐[/i]"
+[i]If this mod saved your eyes or your sanity, leave a thumbs up and a favorite on the Workshop![/i]"
     "changenote"        "v1.0.0: Initial release of Let there be Light! mod for Necesse 1.3.3."
 }
