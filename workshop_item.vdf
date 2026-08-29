@@ -6,85 +6,79 @@
     "previewfile"       "/Users/dika/Project/Games/necesse-better-torch/src/main/resources/preview.png"
     "visibility"        "0"
     "title"             "Let there be Light!"
-    "description"       "[h1]Let there be Light! — Because squinting at pitch-black caves is not gameplay.[/h1]
-[b]Let there be Light![/b] is a comprehensive lighting overhaul for [b]Necesse[/b] that replaces the agony of dark caves, birthday-candle torches, and stick-littered towns with gorgeous, high-intensity illumination, stylish outdoor fixtures, full wire automation, and travel-optimized [b]AutoTorch[/b] integration.
+    "description"       "[h1]Let there be Light! — Because squinting in dark caves is not gameplay.[/h1]
+[b]Let there be Light![/b] is a gameplay and lighting overhaul mod for [b]Necesse[/b] designed to make cave exploration safer, base building more stylish, and automated lighting effortless.
 
 [hr][/hr]
 
-[h2]The Relatable Spelunker Pain Points We All Know Too Well[/h2]
+[h2]Why You Need This Mod[/h2]
 [list]
-[*] [b]The \"Three-Inch Nose Radius\"[/b]: You enter a deep cave with 200 vanilla torches, only to realize each torch illuminates about as much area as a dying smartphone screen. Take four steps forward, and you're back in the shadow realm getting face-hugged by a cave spider.
-[*] [b]The \"Stick Graveyard\" Base Syndrome[/b]: You spent 10 hours building a grand medieval castle, but at night it looks like a haunted landfill because you had to spam 350 basic torches all over the dirt just so your settlers wouldn't trip over their own shoes.
-[*] [b]The \"AutoTorch Panic Clump\"[/b]: You hop on a fast mount or chug a speed potion, and AutoTorch either drops torches three miles behind you or panics when you hit a corner and dumps 12 torches into a single 2x2 puddle.
-[*] [b]The \"Ocean Trench Void\"[/b]: Vanilla water lanterns give off the optical power of a sleeping firefly. Exploring flooded caverns or ocean trenches meant swimming blindly into danger.
+[*] [b]Stop Squinting in Dark Caves[/b]: Better Torches cast light twice as far as vanilla torches, helping you spot ores, chests, traps, and lurking monsters long before they reach you.
+[*] [b]Save Inventory Space & Wood[/b]: Because brighter fixtures cover wider areas, you use 50% fewer torches. This means fewer wood-chopping trips and more open inventory slots for dungeon loot.
+[*] [b]Craft and Uncraft Anywhere[/b]: Upgrade 4 vanilla torches into 1 Better Torch directly in your handcrafting menu while exploring underground. If you ever need regular torches back, you can uncraft them on the fly with zero material loss.
+[*] [b]No More \"Stick Graveyard\" Bases[/b]: Replace messy ground torch spam with elegant Steel Lamp Posts, 4-way Wooden Hanging Lanterns, and majestic Phoenix Lamps.
+[*] [b]Conquer Flooded Caves & Deep Oceans[/b]: Normal torches cannot be placed in water, and vanilla water lanterns are barely visible. The Abyssal Crystal Lantern floats on water with realistic wave bobbing and illuminates deep flooded trenches.
+[*] [b]Wire Automation for Modern Towns[/b]: Connect lights to daylight sensors or switches to automatically turn off your settlement's lighting during the day or when settlers go to sleep.
+[*] [b]Sprint & Ride Without Torch Clumping[/b]: If you use the AutoTorch mod, this mod dynamically projects placement ahead of your movement vector, so sprinting or riding mounts never causes torch lag or clumped placements.
 [/list]
-[i]We've all been there. It hurts your eyes. It wastes your wood. We fixed it.[/i]
 
 [hr][/hr]
 
-[h2]The Solution: Actual Illuminating Fixtures[/h2]
+[h2]New Lighting Fixtures[/h2]
 [list]
 [*] [b]Better Torch (300 Light Level — 2x Vanilla)[/b]
-Finally, a torch that behaves like an actual fire. Covers double the surface area, meaning you place half as many torches and save half your wood. Placeable on ground and walls. Hand-craftable anywhere on the fly (4 regular torches -> 1 Better Torch), and fully uncraftable back to vanilla torches when you need them!
+Mountable on ground and walls. Hand-craftable anywhere on the fly (4x Torch -> 1x Better Torch) and uncraftable back to vanilla torches. Perfect for mining tunnels and deep dungeon exploration.
 
 [*] [b]Steel Lamp Post (350 Light Level)[/b]
-Give your settlement that crisp Victorian street vibe. Heavy industrial metal post that emits dynamic sparks and wide-area coverage so your town paths look like civilized streets rather than an abandoned camp.
+Heavy industrial metal street lamp with dynamic spark particles and wide coverage. Perfect for town pathways, plazas, castle courtyards, and perimeter security.
 
 [*] [b]Wooden Hanging Lantern (350 Light Level)[/b]
-Cozy, rustic lantern that can be mounted 4 ways to walls, pillars, or ceilings. Perfect for taverns, mineshafts, cozy log cabins, and making your build look like a top-tier Pinterest board.
+Cozy rustic lantern supporting 4-way mounting (left walls, right walls, back walls, or ceilings). Perfect for taverns, log cabins, mine shafts, and indoor ceiling lighting.
 
 [*] [b]Phoenix Lamp Post (550 Light Level)[/b]
-The holy grail of illumination. Forged from iron and gold bars at the anvil, this golden beacon radiates a massive, sun-like amber glow that banishes nocturnal horrors straight back to the underworld. (Sunscreen sold separately).
+An ornate golden beacon forged from iron and gold bars at the anvil, radiating a massive warm solar glow. Perfect for town centers, grand monuments, and boss arenas.
 
 [*] [b]Abyssal Crystal Lantern (450 Light Level — 3x Water Lantern)[/b]
-Supercharged tier-2 aquatic lantern with floating wave physics and glowing deep-sea particles. Mountable on land or floating in deep water. Finally, you can illuminate ocean floors and flooded cave chasms without squinting into the abyss.
+Supercharged tier-2 aquatic lantern with floating wave physics and bioluminescent aquatic particles. Mountable on land or floating in water. Perfect for ocean exploration, flooded cave caverns, and fishing docks.
 [/list]
 
 [hr][/hr]
 
-[h2]Wiring & Automation: Kill The Lights![/h2]
-Every single lighting fixture in this mod (including all vanilla torches thanks to our lightweight ByteBuddy patches!) supports wire logic.
+[h2]Smart AutoTorch Integration[/h2]
+If you have the [b]AutoTorch[/b] mod installed, this mod seamlessly upgrades its placement behavior:
 [list]
-[*] Connect your fixtures to switches, daylight sensors, or pressure plates.
-[*] Turn off entire town lighting grids during daytime or when settlers sleep.
-[*] Dim the lights dramatically when entering an arena or boss chamber.
-[*] Zero performance lag and zero memory garbage collection spikes.
+[*] [b]Lookahead Travel Placement[/b]: Predicts your movement direction (including diagonal sprinting) and places torches ahead in the dark instead of trailing behind you.
+[*] [b]Dynamic Spacing[/b]: When holding Better Torches or Phoenix Lamps, torches are automatically placed 12 to 16 tiles apart instead of 3 tiles, saving your inventory.
+[*] [b]Surrounding Light Awareness[/b]: Senses existing fixtures up to 20 tiles away and avoids dropping duplicate torches into already-lit hallways.
+[*] [b]Water & Land Smart Switching[/b]: In ANY_LIGHT mode, it automatically places floating Abyssal Lanterns over water and solid torches on land.
+[*] [b]Anti-Clumping Protection[/b]: Eliminates torch pile-ups against walls when dashing or riding fast mounts while the lighting engine computes.
 [/list]
 
 [hr][/hr]
 
-[h2]Next-Gen AutoTorch Mod Integration (Travel-Optimized!)[/h2]
-If you use the popular [b]AutoTorch[/b] mod, this mod completely supercharges its server loop:
-[list]
-[*] [b]Velocity-Aware Lookahead[/b]: No more torches dropping behind you. The engine predicts your travel vector (including diagonal sprinting) and places torches ahead into the darkness along your travel path.
-[*] [b]Dynamic Travel Stride[/b]: Holding Better Torches or Phoenix Lamps? The mod spaces torches 12 to 16 tiles apart instead of 3 tiles, saving your valuable inventory.
-[*] [b]Full 20-Tile Spatial Scanner[/b]: Walking through a corridor lit by a distant Phoenix Lamp or Street Lamp? AutoTorch detects the light up to 20 tiles away and avoids dropping duplicate torches.
-[*] [b]Anti-Clustering Hysteresis[/b]: Prevents torch pile-ups during mount sprints while the asynchronous lighting engine calculates newly placed light.
-[*] [b]Liquid & Water Awareness[/b]: In ANY_LIGHT mode, AutoTorch automatically switches to floating Abyssal Lanterns over water and solid torches on land!
-[/list]
-
-[hr][/hr]
-
-[h2]Crafting Recipes (Cheaper than eye surgery)[/h2]
+[h2]Crafting Recipes[/h2]
 [list]
 [*] [b]Better Torch[/b]: 4x Torch (Handcrafting / Workstation)
 [*] [b]Vanilla Torch (Uncraft)[/b]: 1x Better Torch -> 4x Torch (Handcrafting / Workstation)
 [*] [b]Steel Lamp Post[/b]: 1x Iron Bar + 1x Torch (Iron Anvil)
-[*] [b]Wooden Hanging Lantern[/b]: 1x Any Log + 1x Torch (Carpenter)
+[*] [b]Wooden Hanging Lantern[/b]: 1x Any Log + 1x Torch (Carpenter Bench)
 [*] [b]Phoenix Lamp Post[/b]: 1x Iron Bar + 1x Gold Bar + 3x Torch (Iron Anvil)
 [*] [b]Abyssal Crystal Lantern (Upgrade)[/b]: 1x Water Lantern + 1x Quartz + 1x Any Gem (Workstation)
-[*] [b]Abyssal Crystal Lantern (Direct)[/b]: 1x Torch + 1x Any Log + 1x Quartz (Carpenter)
+[*] [b]Abyssal Crystal Lantern (Direct)[/b]: 1x Torch + 1x Any Log + 1x Quartz (Carpenter Bench)
 [/list]
 
 [hr][/hr]
 
-[h2]100% Configurable & Multiplayer Synced[/h2]
+[h2]Configuration & Customization[/h2]
 Everything is customizable in [b]settings/lighting/settings.cfg[/b]:
 [list]
-[*] Adjust light levels (support for up to 5000 light with automatic engine safety guardrails).
-[*] Customize hues, saturation, and recipe difficulty (EASY, MEDIUM, HARD).
+[*] Adjust brightness of any fixture (supports up to 5000 light with automatic safety guardrails).
+[*] Customize color warmth, hue, and saturation.
+[*] Choose recipe difficulty (EASY, MEDIUM, HARD).
 [*] Full multiplayer synchronization: Server settings automatically push to connecting clients.
 [/list]
+
+[hr][/hr]
 
 [h2]Credits & Acknowledgements[/h2]
 Huge thanks and appreciation to the original mod creators whose foundational work and ideas made this mod possible:
