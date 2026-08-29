@@ -155,6 +155,12 @@ task runServer(type: JavaExec) {
     args "-mod \"${buildLocation}\""
 }
 
+processResources {
+    exclude "preview.png"
+    exclude "**/.DS_Store"
+    exclude "**/Thumbs.db"
+}
+
 task buildModJar(type: Jar) {
     group "necesse"
     description "Generates the mod jar into the build folder"
@@ -168,12 +174,21 @@ task buildModJar(type: Jar) {
 
     // Add mod classes and mod.info
     from "build/mod/"
+
+    // Add mod preview image strictly at the root of the JAR (required for Necesse mod menu icon)
     from "src/main/resources/preview.png"
 
-    // Add mod game resources under resources/ folder
+    // Add mod game resources under resources/ folder (strictly excluding preview.png and OS junk)
     into("resources") {
         from "src/main/resources"
+        exclude "preview.png"
+        exclude "**/.DS_Store"
+        exclude "**/Thumbs.db"
     }
+
+    // Exclude unwanted OS files from anywhere in the JAR
+    exclude "**/.DS_Store"
+    exclude "**/Thumbs.db"
 
     // Add the dependencies
     from configurations.libDepends.collect { it.isDirectory() ? it : zipTree(it) }

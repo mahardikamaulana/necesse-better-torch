@@ -50,5 +50,23 @@ public class JarPackagingIntegrityTest {
         assertThat(entries).contains("resources/objects/phoenixLamp_off.png");
         assertThat(entries).contains("resources/objects/abyssLantern.png");
         assertThat(entries).contains("resources/objects/abyssLantern_off.png");
+
+        // Must NOT contain redundant duplicate preview under resources/ (saving bundle size)
+        assertThat(entries).doesNotContain("resources/preview.png");
+
+        // Must NOT contain OS junk files
+        assertThat(entries.stream().noneMatch(e -> e.contains(".DS_Store") || e.contains("Thumbs.db"))).isTrue();
+
+        // Optimized JAR bundle must stay strictly under 800 KB
+        assertThat(jarFile.length()).isLessThan(800 * 1024L);
+    }
+
+    @Test
+    @DisplayName("Workshop preview image is within Steam 1.0 MB limit")
+    void testPreviewImageSizeLimit() {
+        File previewFile = new File("src/main/resources/preview.png");
+        assertThat(previewFile).exists().isFile();
+        // Steam Workshop has a strict 1,048,576 byte hard ceiling for preview images
+        assertThat(previewFile.length()).isLessThan(1024 * 1024L);
     }
 }

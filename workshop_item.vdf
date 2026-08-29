@@ -1,18 +1,18 @@
 "workshopitem"
 {
-    "appid"             "1169040"
-    "publishedfileid"   "0"
-    "contentfolder"     "/Users/dika/Project/Games/necesse-better-torch/build/workshop"
-    "previewfile"       "/Users/dika/Project/Games/necesse-better-torch/src/main/resources/preview.png"
-    "visibility"        "0"
-    "title"             "Let there be Light!"
-    "description"       "[h1]And the Player said: \"Let there be Light!\"[/h1]
+	"appid"		"1169040"
+	"publishedfileid"		"3792358584"
+	"contentfolder"		"/Users/dika/Project/Games/necesse-better-torch/build/workshop"
+	"previewfile"		"/Users/dika/Project/Games/necesse-better-torch/src/main/resources/preview.png"
+	"visibility"		"0"
+	"title"		"Let there be Light!"
+	"description"		"[h1]And the Player said: 'Let there be Light!'[/h1]
 [h2]The Book of Necessians 1:1-5[/h2]
 [i]1. In the beginning the world was without form, and void; and darkness was upon the face of the deep caverns.
 2. And the spirit of the Player moved upon the dark terrain, bearing a wooden stick dipped in pitiful resin.
 3. And the Player looked upon the vanilla torch, and behold, it cast light of merely two cubits, and darkness remained upon the land.
 4. And the Player ventured forth into the gloom, stepped unawares upon a concealed pressure plate, and was smitten unto death by spike traps and cave horrors.
-5. And the Player wept bitterly, lifted eyes unto the heavens, and cried: \"Let there be Light!\" — and there was Light: two-fold in brilliance, casting away the shadow realm, and behold, it was very good.[/i]
+5. And the Player wept bitterly, lifted eyes unto the heavens, and cried: 'Let there be Light!' — and there was Light: two-fold in brilliance, casting away the shadow realm, and behold, it was very good.[/i]
 
 [b]Let there be Light![/b] is a gameplay and lighting overhaul for [b]Necesse[/b] that finally fulfills the divine commandment of true illumination. Banish birthday-candle torches, pitch-black death traps, and stick-littered bases forever.
 
@@ -21,7 +21,7 @@
 [*] [b]Stop Squinting in Dark Caves[/b]: Better Torches cast light twice as far as vanilla torches, helping you spot ores, chests, traps, and lurking monsters long before they reach you.
 [*] [b]Save Inventory Space & Wood[/b]: Because brighter fixtures cover wider areas, you use 50% fewer torches. This means fewer wood-chopping trips and more open inventory slots for dungeon loot.
 [*] [b]Craft and Uncraft Anywhere[/b]: Upgrade 4 vanilla torches into 1 Better Torch directly in your handcrafting menu while exploring underground. If you ever need regular torches back, you can uncraft them on the fly with zero material loss.
-[*] [b]No More \"Stick Graveyard\" Bases[/b]: Replace messy ground torch spam with elegant Steel Lamp Posts, 4-way Wooden Hanging Lanterns, and majestic Phoenix Lamps.
+[*] [b]No More 'Stick Graveyard' Bases[/b]: Replace messy ground torch spam with elegant Steel Lamp Posts, 4-way Wooden Hanging Lanterns, and majestic Phoenix Lamps.
 [*] [b]Conquer Flooded Caves & Deep Oceans[/b]: Normal torches cannot be placed in water, and vanilla water lanterns are barely visible. The Abyssal Crystal Lantern floats on water with realistic wave bobbing and illuminates deep flooded trenches.
 [*] [b]Wire Automation for Modern Towns[/b]: Connect lights to daylight sensors or switches to automatically turn off your settlement's lighting during the day or when settlers go to sleep.
 [*] [b]Sprint & Ride Without Torch Clumping[/b]: If you use the AutoTorch mod, this mod dynamically projects placement ahead of your movement vector, so sprinting or riding mounts never causes torch lag or clumped placements.
@@ -90,5 +90,5 @@ Free, open-source, and actively maintained.
 [*] Tested and verified on Necesse 1.3.3.
 [/list]
 [i]If this mod saved your eyes or your sanity, leave a thumbs up and a favorite on the Workshop![/i]"
-    "changenote"        "v1.0.0: Initial release of Let there be Light! mod for Necesse 1.3.3."
+	"changenote"		"Release v1.0.0 for Necesse 1.3.3"
 }
