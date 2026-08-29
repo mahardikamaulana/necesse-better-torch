@@ -108,9 +108,18 @@ Settings can be customized in:
 
 ---
 
+## Credits & Acknowledgements
+
+This mod builds upon, integrates, and draws inspiration from incredible work by community modders:
+
+- **[Better Torch](https://steamcommunity.com/sharedfiles/filedetails/?id=3311404008)** by **[Bolo](https://steamcommunity.com/id/bolo42)** — Original Better Torch concept and mechanics.
+- **[AutoTorch](https://steamcommunity.com/sharedfiles/filedetails/?id=3132344296)** by **[Erick Hasse (Crow)](https://steamcommunity.com/profiles/76561197988408858)** — Automatic torch placement framework and listener architecture.
+- **[Outdoor Lighting](https://steamcommunity.com/sharedfiles/filedetails/?id=3754847143)** by **[ceyoda](https://steamcommunity.com/id/ceyoda)** — Outdoor lighting fixtures and hanging lantern visual concepts.
+
+---
+
 ## Mod Details
 - **Mod Name**: Let there be Light!
 - **Mod ID**: `xeraphire.lighting`
 - **Target Game Version**: `1.3.3`
-- **Authors**: Xeraphire, Erick Hasse, Bolo
 - **Repository**: [https://github.com/mahardikamaulana/necesse-better-torch](https://github.com/mahardikamaulana/necesse-better-torch)

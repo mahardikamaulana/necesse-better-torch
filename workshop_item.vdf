@@ -86,6 +86,14 @@ Everything is customizable in [b]settings/lighting/settings.cfg[/b]:
 [*] Full multiplayer synchronization: Server settings automatically push to connecting clients.
 [/list]
 
+[h2]Credits & Acknowledgements[/h2]
+Huge thanks and appreciation to the original mod creators whose foundational work and ideas made this mod possible:
+[list]
+[*] [b]Better Torch[/b] by [url=https://steamcommunity.com/id/bolo42]Bolo[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3311404008]Workshop Link[/url]) — Original Better Torch concept and mechanics.
+[*] [b]AutoTorch[/b] by [url=https://steamcommunity.com/profiles/76561197988408858]Erick Hasse (Crow)[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3132344296]Workshop Link[/url]) — Automatic torch placement framework and listener architecture.
+[*] [b]Outdoor Lighting[/b] by [url=https://steamcommunity.com/id/ceyoda]ceyoda[/url] ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=3754847143]Workshop Link[/url]) — Outdoor lighting fixtures and lantern visual concepts.
+[/list]
+
 [hr][/hr]
 
 [h2]Source Code & Community[/h2]
