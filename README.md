@@ -1,133 +1,116 @@
 # Let there be Light!
 
-A lighting overhaul mod for **Necesse 1.3.3** that introduces high-intensity torches, decorative outdoor and aquatic lighting fixtures, full wire control, and smart **AutoTorch** mod integration.
+**Let there be Light!** is a gameplay and lighting overhaul mod for **Necesse 1.3.3** designed to make cave exploration safer, base building more stylish, and automated lighting effortless.
 
 ---
 
-## Features
+## Why You Need This Mod
 
-- **Better Torch**: Emits **2x vanilla light** (300 light level). Mounts on both ground and walls, and can be uncrafted back to regular torches.
-- **Steel Lamp Post**: Industrial metal street lamp (350 light level) with dynamic spark particles, ideal for town pathways and plazas.
-- **Wooden Hanging Lantern**: Rustic wooden lantern (350 light level) supporting 4-way wall and ceiling directional mounting.
-- **Phoenix Lamp Post**: Ultra-bright ornate golden street lamp (550 light level) radiating a wide, warm glow.
-- **Abyssal Crystal Lantern**: Supercharged tier-2 aquatic lantern (450 light level, **3x brighter than vanilla water lantern**) with floating wave physics, bioluminescent particles, and dual land/water placement.
-- **Full Wire Support**: All outdoor and aquatic fixtures connect to wire logic and switches, turning off when receiving an active wire signal.
-- **Optimized Vanilla Torches**: Patches optimize all vanilla and colored torches with direct static light updates.
-- **Multiplayer Synchronized**: Server settings automatically synchronize to connected players upon joining.
-
----
-
-## AutoTorch Mod Integration
-
-When used alongside the **AutoTorch** mod, this mod enhances automatic torch placement with smart travel and terrain features:
-
-- **Velocity-Aware Lookahead**: Predicts player movement (including diagonal sprinting) and places torches ahead along your travel path instead of lagging behind.
-- **Dynamic Torch Spacing**: Automatically spaces torches further apart (up to 12-16 tiles) when holding high-intensity fixtures like Better Torches or Phoenix Lamps.
-- **Smart Light Detection**: Scans surrounding areas up to 20 tiles away to detect existing lamps and fixtures, preventing unnecessary torch drops.
-- **Anti-Clumping Protection**: Prevents torch pile-ups during mount sprints while new light calculations finish processing.
-- **Terrain Awareness**: In `ANY_LIGHT` mode, automatically places floating Abyssal Lanterns over water/liquids and solid torches on land.
-- **Configurable Inventory Priority**: Choose whether to consume Better Torches first, vanilla torches first, or rank by brightness.
+- **Stop Squinting in Dark Caves**: Better Torches cast light twice as far as vanilla torches, helping you spot ores, chests, traps, and lurking monsters long before they reach you.
+- **Save Inventory Space & Resources**: Because brighter fixtures cover wider areas, you use 50% fewer torches. This means fewer wood-chopping trips and more open inventory slots for dungeon loot.
+- **Craft and Uncraft Anywhere**: Upgrade 4 vanilla torches into 1 Better Torch directly in your handcrafting menu while exploring underground. If you ever need regular torches back, you can uncraft them on the fly with zero material loss.
+- **No More "Stick Graveyard" Bases**: Replace messy ground torch spam with elegant Steel Lamp Posts, 4-way Wooden Hanging Lanterns, and majestic Phoenix Lamps.
+- **Conquer Flooded Caves & Deep Oceans**: Normal torches cannot be placed in water, and vanilla water lanterns are barely visible. The Abyssal Crystal Lantern floats on water with realistic wave bobbing and illuminates deep flooded trenches.
+- **Wire Automation for Modern Towns**: Connect lights to daylight sensors or switches to automatically turn off your settlement's lighting during the day or when settlers go to sleep.
+- **Sprint & Ride Without Torch Clumping**: If you use the AutoTorch mod, this mod dynamically projects placement ahead of your movement vector, so sprinting or riding mounts never causes torch lag or clumped placements.
 
 ---
 
-## Crafting Recipes
+## New Lighting Fixtures
 
-| Item | Workstation | Ingredients |
+### Better Torch
+- **Light Level**: 300 (2x vanilla brightness)
+- **Mounting**: Ground and wall mountable
+- **How to get**: Handcraftable anywhere (4x Torch -> 1x Better Torch)
+- **Best for**: Cave spelunking, mining tunnels, and dungeon exploration
+
+### Steel Lamp Post
+- **Light Level**: 350
+- **Appearance**: Industrial metal post with dynamic spark particles
+- **How to get**: Crafted at the Iron Anvil (1x Iron Bar + 1x Torch)
+- **Best for**: Town pathways, plazas, castle courtyards, and perimeter security
+
+### Wooden Hanging Lantern
+- **Light Level**: 350
+- **Mounting**: 4-way mounting (attaches to left/right walls, back walls, or ceilings)
+- **How to get**: Crafted at the Carpenter Bench (1x Any Log + 1x Torch)
+- **Best for**: Taverns, cozy cabins, mine shafts, and indoor ceiling lighting
+
+### Phoenix Lamp Post
+- **Light Level**: 550
+- **Appearance**: Ornate golden beacon radiating a massive, warm solar glow
+- **How to get**: Crafted at the Iron Anvil (1x Iron Bar + 1x Gold Bar + 3x Torch)
+- **Best for**: Town centers, arenas, boss arenas, and grand monuments
+
+### Abyssal Crystal Lantern
+- **Light Level**: 450 (3x brighter than vanilla water lanterns)
+- **Special**: Floats on water surfaces with wave bobbing and bioluminescent aquatic particles; also placeable on land
+- **How to get**: Crafted at Workstation (1x Water Lantern + 1x Quartz + 1x Any Gem) or Carpenter Bench (1x Torch + 1x Any Log + 1x Quartz)
+- **Best for**: Ocean exploration, flooded cave caverns, docks, and fishing harbors
+
+---
+
+## Wire Logic & Base Automation
+
+Every fixture in this mod (as well as all vanilla torches) fully supports wire circuits:
+- **Automatic Daylight Shutoff**: Connect your fixtures to a daylight sensor to turn off town lights at sunrise and save power.
+- **Master Switches**: Hook an entire base or dungeon floor to a single lever or pressure plate.
+- **Performance-Friendly**: Wire checks use lightweight bitmasks with zero FPS drops or lag spikes.
+
+---
+
+## Smart AutoTorch Integration
+
+If you have the **AutoTorch** mod installed, this mod seamlessly upgrades its placement behavior:
+
+- **Lookahead Travel Placement**: Predicts your movement direction (including diagonal sprinting) and places torches ahead in the dark instead of trailing behind you.
+- **Dynamic Spacing**: When holding Better Torches or Phoenix Lamps, torches are automatically placed 12 to 16 tiles apart instead of 3 tiles, saving your inventory.
+- **Surrounding Light Awareness**: Senses existing fixtures up to 20 tiles away and avoids dropping duplicate torches into already-lit hallways.
+- **Water & Land Smart Switching**: When running in `ANY_LIGHT` mode, it automatically places floating Abyssal Lanterns over water and solid torches on land.
+- **Anti-Clumping Protection**: Eliminates torch pile-ups against walls when dashing or riding fast mounts.
+
+---
+
+## Crafting Summary
+
+| Item | Where to Craft | Ingredients |
 | :--- | :--- | :--- |
-| **Better Torch** | Handcrafting / Workstation | 4x Torch *(Configurable: EASY=2, MEDIUM=4, HARD=4+4 Stone)* |
+| **Better Torch** | Handcrafting / Workstation | 4x Torch |
 | **Vanilla Torch (Uncraft)** | Handcrafting / Workstation | 1x Better Torch -> 4x Torch |
 | **Steel Lamp Post** | Iron Anvil | 1x Iron Bar + 1x Torch |
-| **Wooden Hanging Lantern** | Carpenter | 1x Any Log + 1x Torch |
+| **Wooden Hanging Lantern** | Carpenter Bench | 1x Any Log + 1x Torch |
 | **Phoenix Lamp Post** | Iron Anvil | 1x Iron Bar + 1x Gold Bar + 3x Torch |
 | **Abyssal Crystal Lantern (Upgrade)** | Workstation | 1x Water Lantern + 1x Quartz + 1x Any Gem |
-| **Abyssal Crystal Lantern (Direct)** | Carpenter | 1x Torch + 1x Any Log + 1x Quartz |
+| **Abyssal Crystal Lantern (Direct)** | Carpenter Bench | 1x Torch + 1x Any Log + 1x Quartz |
 
 ---
 
-## Configuration
+## Configuration & Customization
 
-The configuration file is automatically created at:
+Settings can be customized in:
 `<game_save_directory>/settings/lighting/settings.cfg`
 
-```properties
-# === Better Torch Settings ===
-torchLightLevel=300
-torchLightHue=50.0
-torchLightSat=0.2
-recipeDifficulty=MEDIUM
+### Key Settings Players Can Tweak:
+- **Light Brightness**: Change the light level of any fixture (supports up to 5000 light level).
+- **Light Color**: Customize the warmth, hue, and saturation of torches and lamps.
+- **Crafting Difficulty**: Switch between `EASY` (2 torches per craft), `MEDIUM` (4 torches), or `HARD` (4 torches + 4 stone).
+- **AutoTorch Priorities**: Choose whether AutoTorch prefers Better Torches, vanilla torches, or brightest available lights.
 
-# === Outdoor & Aquatic Fixture Settings ===
-steelLampLightLevel=350
-woodenLanternLightLevel=350
-phoenixLampLightLevel=550
-abyssLanternLightLevel=450
-outdoorLampHue=50.0
-outdoorLampSat=0.2
-abyssLanternHue=30.0
-abyssLanternSat=0.75
-
-# === AutoTorch Integration Settings ===
-autoTorchIntegration=true
-# Options: BETTER_THEN_VANILLA, VANILLA_THEN_BETTER, BETTER_ONLY, VANILLA_ONLY, ANY_LIGHT
-autoTorchTorchSelection=BETTER_THEN_VANILLA
-# Priority when in ANY_LIGHT mode: SLOT_ORDER, BRIGHTEST_FIRST, CONSERVATIVE_FIRST
-autoTorchAnyLightPriority=SLOT_ORDER
-autoTorchConsiderAllLights=true
-# Enables dynamic spacing and velocity lookahead when traveling with bright fixtures
-autoTorchDynamicTravelSpacing=true
-# Minimum light level below which a torch will be placed
-autoTorchMinLightThreshold=90
-```
-
-### Config Options Reference
-
-| Setting | Options / Range | Default | Description |
-| :--- | :--- | :--- | :--- |
-| `torchLightLevel` | 50 - 5000 | 300 | Light level for Better Torches. |
-| `recipeDifficulty` | EASY, MEDIUM, HARD | MEDIUM | Crafting cost difficulty for Better Torches. |
-| `steelLampLightLevel` | 50 - 5000 | 350 | Light level for Steel Lamp Posts. |
-| `woodenLanternLightLevel` | 50 - 5000 | 350 | Light level for Wooden Hanging Lanterns. |
-| `phoenixLampLightLevel` | 50 - 5000 | 550 | Light level for Phoenix Lamp Posts. |
-| `abyssLanternLightLevel` | 50 - 5000 | 450 | Light level for Abyssal Crystal Lanterns. |
-| `autoTorchIntegration` | true / false | true | Enables custom AutoTorch placement listener. |
-| `autoTorchTorchSelection` | BETTER_THEN_VANILLA, etc. | BETTER_THEN_VANILLA | Inventory torch consumption preference. |
-| `autoTorchAnyLightPriority` | SLOT_ORDER, BRIGHTEST_FIRST, CONSERVATIVE_FIRST | SLOT_ORDER | Sort order when in ANY_LIGHT mode. |
-| `autoTorchConsiderAllLights` | true / false | true | Checks nearby existing fixtures before placing. |
-| `autoTorchDynamicTravelSpacing` | true / false | true | Adjusts spacing dynamically based on torch brightness and speed. |
-| `autoTorchMinLightThreshold` | 30 - 200 | 90 | Darkness threshold that triggers torch placement. |
+*All settings automatically synchronize from the host server to connected players in multiplayer.*
 
 ---
 
 ## Installation
 
-1. Download the latest `LettherebeLight!-1.3.3-1.0.0.jar` from the [Releases](https://github.com/mahardikamaulana/necesse-better-torch/releases) page.
-2. Place the JAR file into your Necesse `mods/` directory.
-3. Launch Necesse and enable the mod in the Mods menu.
+1. Download `LettherebeLight!-1.3.3-1.0.0.jar` from the [Releases](https://github.com/mahardikamaulana/necesse-better-torch/releases) page.
+2. Place the JAR file into your `Necesse/mods/` folder.
+3. Launch Necesse and make sure the mod is enabled in the Mods menu.
 
 ---
 
-## Building from Source
-
-Requirements: Java 8 JDK (or higher) and Gradle.
-
-```bash
-# Clone the repository
-git clone https://github.com/mahardikamaulana/necesse-better-torch.git
-cd necesse-better-torch
-
-# Build the mod JAR and run all tests
-./gradlew clean build
-```
-
-Compiled JAR will be generated at `build/jar/LettherebeLight!-1.3.3-1.0.0.jar`.
-
----
-
-## Mod Information
-
+## Mod Details
+- **Mod Name**: Let there be Light!
 - **Mod ID**: `xeraphire.lighting`
-- **Mod Name**: `Let there be Light!`
-- **Version**: `1.0.0`
 - **Target Game Version**: `1.3.3`
-- **Authors**: `Xeraphire`, `Erick Hasse`, `Bolo`
+- **Authors**: Xeraphire, Erick Hasse, Bolo
 - **Repository**: [https://github.com/mahardikamaulana/necesse-better-torch](https://github.com/mahardikamaulana/necesse-better-torch)
